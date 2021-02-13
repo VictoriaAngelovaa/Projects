@@ -1,0 +1,95 @@
+//with > is marked the user's input
+
+> open newFigures.svg
+You have successfully opened newFigures.svg.
+
+> print
+1. line 10 50 110 150 orange
+2. ellipse 74.888 70.5 10 5 yellow
+3. circle 5 5 10 blue
+4. circle 25.58 35 10 blue
+5. rectangle 10 10 30 30 green
+6. rectangle 60 10 30 30 pink
+7. circle 25 75 20 purple
+
+> erase 7
+You have successfully erased the figure.
+
+> print
+1. line 10 50 110 150 orange
+2. ellipse 74.888 70.5 10 5 yellow
+3. circle 5 5 10 blue
+4. circle 25.58 35 10 blue
+5. rectangle 10 10 30 30 green
+6. rectangle 60 10 30 30 pink
+
+> create square 7 8 9 black
+Unknown figure type.
+
+> translate 8 vertical=10 horizontal=15
+There is no figure number 8.
+
+> translate vertical=10 horizontal=1.5
+Translated all figures.
+
+> print
+1. line 11.5 51.5 120 160 orange
+2. ellipse 76.388 80.5 10 5 yellow
+3. circle 6.5 15 10 blue
+4. circle 27.08 45 10 blue
+5. rectangle 11.5 20 30 30 green
+6. rectangle 61.5 20 30 30 pink
+
+> create line 8.5 9.5 11.5 12 black
+You have successfully created a line.
+
+> within circle 5 5 100
+Printing figures within that circle:
+circle 5 5 10 blue
+circle 25.58 35 10 blue
+rectangle 10 10 30 30 green
+rectangle 60 10 30 30 pink
+line 8.5 9.5 11.5 12 black
+
+> within rectangle 0 0 100 100
+Printing figures within that rectangle:
+ellipse 74.888 70.5 10 5 yellow
+circle 25.58 35 10 blue
+rectangle 10 10 30 30 green
+rectangle 60 10 30 30 pink
+line 8.5 9.5 11.5 12 black
+
+> translate 7 vertical=5 horizontal=1.5
+You have successfully translated the figure.
+
+> print
+1. line 10 50 110 150 orange
+2. ellipse 74.888 70.5 10 5 yellow
+3. circle 5 5 10 blue
+4. circle 25.58 35 10 blue
+5. rectangle 10 10 30 30 green
+6. rectangle 60 10 30 30 pink
+7. line 10 11 16.5 17 black
+
+> close
+You have successfully closed newFigures.svg.
+
+> print
+Invalid command. Valid commands after closing a file: help, exit, open a new file.
+
+> help
+ The following commands are supported:
+    <> open <file> - opens <file>
+    <> close - closes the currently opened file
+    <> save - saves the currently opened file
+    <> saveas <file> - saves the currently opened file in <file>
+    <> help - prints this information
+    <> exit - exits the program
+    <> print - prints all figures
+    <> create - creates a new figure
+    <> erase <n> - erases a figure with serial number n
+    <> translate [<n>] - translates a figure or all of the figures
+    <> within <option> - shows all figures which are located within a given circle/rectangle
+
+> exit
+Exiting...

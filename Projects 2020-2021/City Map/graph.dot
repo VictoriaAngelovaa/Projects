@@ -1,0 +1,17 @@
+digraph G{
+BSFS[color="red"];
+LavovMost;
+NDK;
+OrlovMost;
+PetKiosheta;
+Popa;
+LavovMost->BSFS[label="22"];
+LavovMost->OrlovMost[label="400"];
+NDK->BSFS[label="2000"];
+NDK->OrlovMost[label="200"];
+NDK->PetKiosheta[label="100"];
+OrlovMost->BSFS[label="1"];
+PetKiosheta->LavovMost[label="400"];
+PetKiosheta->NDK[label="100"];
+Popa->PetKiosheta[label="1000"];
+}

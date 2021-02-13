@@ -1,0 +1,10 @@
+digraph G{
+BSFS;
+NDK;
+PetKiosheta;
+Popa;
+NDK->PetKiosheta[label="100"];
+PetKiosheta->NDK[label="100"];
+PetKiosheta->Popa[label="1000"];
+Popa->PetKiosheta[label="1000"];
+}

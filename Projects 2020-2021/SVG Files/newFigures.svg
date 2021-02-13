@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg>
+<line x1="10" x2="50" y1="110" y2="150" stroke="orange"/>
+<ellipse cx="74.888" cy="70.5" rx="10" ry="5" fill="yellow"/>
+<circle cx="5" cy="5" r="10" fill="blue"/>
+<circle cx="25.58" cy="35" r="10" fill="blue"/>
+<rect x="10" y="10" width="30" height="30" fill="green"/>
+<rect x="60" y="10" width="30" height="30" fill="pink"/>
+<square x="10" y="5" a="8" fill="black"/>
+<circle cx="25" cy="75" r="20" fill="purple"/>
+</svg>
